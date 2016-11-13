@@ -1,0 +1,27 @@
+{
+  "name": "trading-platform",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "latest",
+    "bower": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "fs": "0.0.1-security",
+    "gulp": "latest",
+    "gulp-clean": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-jshint": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+    "lodash": "latest",
+    "moment": "^2.15.2",
+    "mongoose": "latest",
+    "multer": "^1.2.0",
+    "querystring": "latest",
+    "url": "^0.11.0",
+    "util": "^0.10.3"
+  }
+}

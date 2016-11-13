@@ -1,0 +1,31 @@
+<div class="p-login">
+    <img src="app/images/welcome.jpg"/>
+
+    <p ng-show="error"  class="error">{{error}}</p>
+
+    <form class="m-form"  name="registerForm"  ng-submit="register(registerForm)">
+
+        <div>
+            <input  type="tel"  ng-model="registerForm.phone"/>
+            <label>手机</label>
+        </div>
+        <div>
+            <input  type="text"  ng-model="code"/>
+            <label>验证码</label>
+        </div>
+        <div>
+            <input  type="password"  ng-model="registerForm.password"/>
+            <label>密码</label>
+        </div>
+        <div>
+            <input  type="password"  ng-model="password"/>
+            <label>确认密码</label>
+        </div>
+        <div>
+            <input  type="text"  ng-model="registerForm.name"/>
+            <label>昵称</label>
+        </div>
+        <input value="注册" type="submit"/>
+    </form>
+
+</div>

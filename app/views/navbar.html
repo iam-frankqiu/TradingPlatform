@@ -1,0 +1,32 @@
+<nav ng-controller="NavbarCtrl">
+    <a class="title" href="#/"><em>深圳二手交易平台</em></a>
+
+    <form name="search" class="middle" ng-submit="submitSearch()">
+        <input placeholder="搜点儿什么吧233···" ng-model="search"/>
+        <input class="search" type="image" src="app/images/search.png"/>
+    </form>
+    <div>
+        <button title="需要先登录哦！">我要发布</button>
+
+        <div ng-if="!state">
+
+            <a ng-click="logIn()">登录</a>
+            <a ng-click="verify('register')">注册</a>
+        </div>
+
+        <div ng-if="state">
+            <a>我的发布</a>
+            <a>name</a>
+            <a><img src="app/images/message.png"/></a>
+            <a><img src="app/images/option.png"/></a>
+        </div>
+    </div>
+
+    <div  ng-if="clickable">
+        <ul>
+            <li>更改用户名</li>
+            <li>退出登录</li>
+        </ul>
+    </div>
+
+</nav>

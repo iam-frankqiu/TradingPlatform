@@ -1,0 +1,20 @@
+<!--<div class="wp-content">-->
+    <form class="p-login" name="logInForm" ng-submit="logIn(logInForm)" >
+        <img src="app/images/welcome.jpg"/>
+        <p  ng-show="error" class="error">请输入合格的电话号码</p>
+        <div class="m-form">
+            <div>
+                <input name="_phone" type="tel" ng-model="logInForm.phone"/>
+                <label for="_phone">手机</label>
+            </div>
+            <div>
+                <input name="_password" type="password" ng-model="logInForm.password"/>
+                <label for="_password">密码</label>
+            </div>
+            <a  href="#/"  ng-click="verify('forget')">忘记密码?</a>
+            <input type="submit" value="登录"/>
+
+            <p>没有账号？赶快<a   href="#/" ng-click="verify('register')">注册</a>吧</p>
+        </div>
+    </form>
+<!--</div>-->

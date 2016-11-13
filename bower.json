@@ -1,0 +1,11 @@
+{
+  "name": "trading-platform",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "bootstrap": "latest",
+    "angular-bootstrap": "latest",
+    "angular-resource": "^1.5.8"
+  }
+}

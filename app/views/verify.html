@@ -1,0 +1,16 @@
+<div  class="p-login">
+    <!--<hr  style="width: auto;height: 3px;background: #0bb9f8"/>-->
+    <h3>{{tabs[reason]}}</h3>
+    <img  src="app/images/welcome.jpg"/>
+    <p  class="error">请输入合格的电话号码</p>
+    <div  class="m-form">
+        <div>
+            <input  name="_phone" ng-model="phone"  type="tel"/>
+            <label  for="_phone">手机</label>
+        </div>
+        <input  value="验证手机"  ng-click="sentCode()" type="button"/>
+        <p>已有账号？去<a  href=""  ng-click="logIn()">登录</a></p>
+    </div>
+
+
+</div>
